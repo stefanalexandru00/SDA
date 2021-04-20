@@ -64,9 +64,9 @@ public class main {
 	        Scanner stdin = new Scanner(System.in);
 	        System.out.println("Introduceti tipul de drum (Zona rezidentiala, Oras, Drum express, Autostrada): ");
 	        Type = stdin.nextLine();
-	        System.out.println("Viteza cu prima functie: " + vd1(Type));
-	        System.out.println("Viteza cu a doua functie: " + vd2(Type));
-	        System.out.println("Viteza cu a treia functie: " + vd3(Type));
+	        System.out.println("Viteza1 :" + vd1(Type));
+	        System.out.println("Viteza2 : " + vd2(Type));
+	        System.out.println("Viteza3 : " + vd3(Type));
 
 	    }
 	}
